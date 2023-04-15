@@ -1,4 +1,4 @@
-<h1 align="center"> Theme Switcher </h1>
+<h1 align="center"> Sidebar </h1>
 
 <p align="center">
 Countdown é um projeto desafio proposto pela <a href="https://www.rocketseat.com.br/">Rocketseat</a>, que consiste em criar uma Sidebar. Quando o usuário clicar no ícone do menu isso deve fazer com que o estado da sidebar mude entre "aberto", mostrando ícones e texto e "fechado", mostrando apenas os ícones.<br/>
