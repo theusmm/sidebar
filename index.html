@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Sidebar</title>
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="image-logo-menu">
+            <span class="logo">
+                <img src="./assets/logo.svg" alt="logo">
+            </span>
+            <span class="menu-icon">
+                <img class="toggleBtn" src="./assets/menu.svg" alt="menu">
+            </span>    
+        </div>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <img class="icon" src="./assets/search.svg" alt="Search icon">
+                    <input type="search" placeholder="Search">
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#" onclick="document.querySelector('.mainText').textContent = 'Dashboard'">
+                            <img class="icon" src="./assets/grid.svg" alt="Dashboard icon">
+                            <span class="text">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#" onclick="document.querySelector('.mainText').textContent = 'Pets'">
+                            <img class="icon" src="./assets/pet.svg" alt="Pets icon">
+                            <span class="text">Pets</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#" onclick="document.querySelector('.mainText').textContent = 'Clients'">
+                            <img class="icon" src="./assets/user.svg" alt="Clients icon">
+                            <span class="text">Clients</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#" onclick="document.querySelector('.mainText').textContent = 'Vets'">
+                            <img class="icon" src="./assets/vet.svg" alt="Vet icon">
+                            <span class="text">Vets</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#" onclick="document.querySelector('.mainText').textContent = 'Settings'">
+                            <img class="icon" src="./assets/settings.svg" alt="Settings icon">
+                            <span class="text">Settings</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <div class="user">
+                    <span class="user-image">
+                        <img src="assets/avatar.png" alt="photo">
+                    </span>
+                
+                    <div class="user-text">
+                        <span class="text name">Eleanor Pena</span>
+                        <span class="text profession">Vet</span>
+                    </div>
+                </div>
+
+                <a href="#">
+                    <img src="./assets/log-out.svg" alt="menu">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home">
+        <div class="mainText">Dashboard</div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
